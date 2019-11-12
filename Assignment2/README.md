@@ -1,4 +1,4 @@
 Completed Site
 <p>
-  <a href="https:?" target="_blank">text to click</a>
+  <a href="https://shinyraisa.github.io/HTML-CSS-JS/Assignment2/starterpage.html" target="_blank">Starter Page</a>
 </p>
