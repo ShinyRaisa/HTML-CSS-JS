@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  font-family: comic sans ms;
+}
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+div.column1,div.column2,div.column3{
+  position: relative;
+}
+
+h2{
+  position: absolute;
+  top:-10px;
+  right:10px;
+  border: 2px solid black
+}
+#vx{
+  background-color: pink;
+  position: absolute;
+}
+#vy{
+  background-color: red;
+}
+#vz{
+  background-color: yellow;
+}
+p {
+  background-color: #8e8e8e;
+  border:2px solid black;
+  margin:10px;
+  text-align: center;
+  /*height: 200px;*/
+  padding-top: 40px;
+  }
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  border: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  padding:5px;
+}
+/********** for desktop **********/
+@media (min-width: 992px) {
+  .column1, .column2, .column3{
+    float: left;
+    width: 33.33%
+  }
+}
+/********** for tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .column1, .column2{
+    float: left;
+    width: 50%
+    }
+  .column3{
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+}
+/********** for phone **********/
+@media (max-width: 767px)  {
+  .column1, .column2, .column3{
+    width: 100%
+  }
+ h2{
+  position: absolute;
+  top:-20px;
+  right:10px;
+
+} 
+}
